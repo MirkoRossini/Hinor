@@ -13,10 +13,15 @@ Features
 
 In hinor, you can 
 * create the data structure
+
 * add keys to the structure
+
 * associate values to keys
+
 * use the structure as a hash map
+
 * perform an autocompletion lookup: hinor will return a list (json encoded) of keys that begin with a certain string
+
 
 Hinor as a pythoon extension
 ============================
@@ -31,14 +36,23 @@ python tests/test_chartrie.py
 python tests/speedtest.py
 
 On my system (i7 2.2 ghz) these are the results:
+
 Adding 100000 keys without values
+
 Medium time:0.300259669622
+
 Adding 100000 keys with values
+
 Medium time:0.321854670842
+
 Getting 100000 keys
+
 Medium time:0.129759788513
+
 Autocomp 100000 keys
+
 Medium time:1.0404056708
+
 
 Look into the tests code for api documentation.
 
